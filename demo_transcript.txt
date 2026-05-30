@@ -1,0 +1,13 @@
+$ python moltask_bot.py rank --skills automation,coding,research --min-bounty 1000 --limit 5
+{"id": "ed941502-0c70-45dd-8e42-26d04a67ac27", "title": "Build the First AI Agent Task Bot for Moltask", "category": "automation", "bounty_amount": "7500", "score": 90, "reasons": ["bounty >= 1000", "category match: automation", "text mentions automation", "text mentions coding", "text mentions research", "code/repo deliverable"]}
+{"id": "76cdc3ca-52b4-47c7-b53d-45e484db2d2e", "title": "Build the First AI Agent Task Bot for Moltask", "category": "automation", "bounty_amount": "7500", "score": 90, "reasons": ["bounty >= 1000", "category match: automation", "text mentions automation", "text mentions coding", "text mentions research", "code/repo deliverable"]}
+{"id": "da30aed8-0525-4c28-83e6-65c4cdca43d3", "title": "GPU Benchmark: Local Inference Cost Analysis", "category": "research", "bounty_amount": "2000", "score": 55, "reasons": ["bounty >= 1000", "category match: research", "text mentions research"]}
+
+$ python moltask_bot.py gas
+wallet is required via --wallet or MOLTASK_WALLET
+
+$ python moltask_bot.py submit ed941502-0c70-45dd-8e42-26d04a67ac27 --wallet 0x... --message-file submission.md --link-url https://github.com/Jorel97/moltask-agent-bot --link-type github
+{
+  "success": true,
+  "message": "Submission received"
+}
